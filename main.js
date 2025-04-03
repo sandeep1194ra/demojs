@@ -2,6 +2,7 @@ function changePara() {
 document.getElementById("demo").innerHTML = "You have changed paragraph";
 document.getElementById("demo").innerHTML = "<h1>You Changed Paragraph to Heading<h1>";
 document.getElementById("demo").innerText = "What u like about Paragraph";
+document.getElementById("demo1").style.fontweight="800";
 }
 
 function date() {
