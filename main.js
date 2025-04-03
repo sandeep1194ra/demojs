@@ -11,4 +11,5 @@ document.getElementById("demo1").style.fontweight="800";
 function demoAlert() {
 document.getElementById("demo2").innerHTML = alert("Do you like our Pages?");
 document.getElementById("demo2").innerHTML = "You liked our Page.";
+document.getElementById("demo2").innerText = "You Clicked OK";
 }
