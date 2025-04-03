@@ -1,17 +1,24 @@
 function changePara() {
-document.getElementById("demo").innerHTML = "You have changed paragraph";
-document.getElementById("demo").innerHTML = "<h1>You Changed Paragraph to Heading<h1>";
-document.getElementById("demo").innerText = "What u like about Paragraph";
-document.getElementById("demo1").style.fontweight="800";
+document.getElementById("demo").innerText = "This is a new Paragraph isn't it?";
 }
 
 function date() {
+document.getElementById("demo").style.fontsize="35px";
 document.getElementById("demo1").innerHTML = Date();
-document.getElementById("demo1").style.fontweight="800";
 }
 
 function demoAlert() {
-document.getElementById("demo2").innerHTML = alert("Do you like our Pages?");
-document.getElementById("demo2").innerHTML = "You liked our Page.";
-document.getElementById("demo2").innerText = "You Clicked OK";
+document.getElementById("demo5").innerHTML = "<h4>Hello Guys, What's Up</h4>";
+document.getElementById("demo2").innerHTML = alert("This is an alert");
 }
+
+
+function toPrint() {
+document.getElementById("demo4").innerHTML = print();
+}
+
+function emptyText() {
+document.getElementById("demo5").innerText = "Want to change color";
+document.getElementById("demo5").style.color="red";
+}
+
