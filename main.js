@@ -3,7 +3,7 @@ document.getElementById("demo").innerText = "This is a new Paragraph isn't it?";
 }
 
 function date() {
-document.getElementById("demo").style.fontsize="35px";
+document.getElementById("demo").style.font-size="35px";
 document.getElementById("demo1").innerHTML = Date();
 }
 
