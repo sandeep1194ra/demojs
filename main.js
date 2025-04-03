@@ -22,3 +22,9 @@ document.getElementById("demo5").innerText = "Want to change color";
 document.getElementById("demo5").style.color="red";
 }
 
+function somethingAdd() {
+document.getElementById("demo6").innerHTML = alert("Welcome to tribute page");
+document.getElementById("demo6").innerHTML = "<input>Enter Your Name";
+document.getElementById("demo6").innerHTML = "You Sure";
+
+}
